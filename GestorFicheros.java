@@ -5,7 +5,7 @@ import java.io.File;
 public abstract class GestorFicheros {
 
 	// Ruta donde se va a guardar todos los ficheros
-	protected static final String rutaCarpetaRaiz = "C:/Users/" + System.getProperty("user.name") + "/Desktop/Práctica1T_AD_Lin_Juanjo/";
+	protected static final String rutaCarpetaRaiz = "C:/Practica1T_AD_Lin_Juanjo/";
 	protected static File carpetaRaiz = new File(rutaCarpetaRaiz);
 	// Carpeta de las copias de seguridad
 	protected static String rutaRespaldos = rutaCarpetaRaiz + "respaldos/";
